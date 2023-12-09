@@ -32,7 +32,7 @@ section > img{
     font-family: 'Outfit', sans-serif;
     gap: 16px;
     max-width: 192px;
-    margin: 150px auto;
+    margin: 50px auto;
     padding: 16px 0;
 }
 
@@ -75,7 +75,7 @@ section > img{
     font-size: 12px;
 }
 
-.user, .value p{
+.user, .value, .card-time{
     font-size: 8px;
 }
 
