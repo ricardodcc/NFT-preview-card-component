@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, p, div{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+section > img{
+    border-radius: 5px;
+    max-width: 160px;
+}
+
+.nft-info, .value, .card-time, .user, .nft-card{
+    display: flex;
+}
+
+.nft-card{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 8px;
+    box-shadow: 0px 10px 12px 2px black;
+    color: hsl(215, 51%, 70%);
+    flex-direction: column;
+    font-size: 14px;
+    font-family: 'Outfit', sans-serif;
+    gap: 16px;
+    max-width: 192px;
+    margin: 150px auto;
+    padding: 16px 0;
+}
+
+.nft-card div, .nft-card > img, .nft-card > p, hr{
+    margin-left: 16px;
+}
+
+.nft-info div, .nft-info > img, .nft-info > p{
+    margin-left: 0;
+}
+
+.card-time img{
+    max-width: 10px;
+}
+
+.value img{
+    max-width: 6px;
+}
+
+.value, .card-time{
+    gap: 5px;
+}
+
+.nft-info, .nft-card p+p{
+    margin-right: 16px;
+    font-size: 10px;
+}
+
+.nft-info{
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.nft-name, .user-name{
+    color: white;
+} 
+
+.nft-name{
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.user, .value p{
+    font-size: 8px;
+}
+
+.nft-info p{
+    font-weight: 400;
+}
+
+.value p{
+    color: hsl(178, 100%, 50%);
+}
+
+.nft-card p+p{
+    font-weight: 300;
+}
+
+.user img{
+    border: 1px solid white;
+    border-radius: 50%;
+    max-width: 18px;
+}
+
+.user{
+    align-items: center;
+    gap: 8px;
+    margin-top: -16px;
+}
+
+.user-name{
+    text-transform: capitalize;
+}
+
+hr{
+    border: 0.5px solid hsla(215, 51%, 70%,0.1);
+    margin-top: -2px;
+    width: 152px;
+}
+
